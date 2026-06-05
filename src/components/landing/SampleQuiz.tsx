@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, X, RefreshCw, Star } from 'lucide-react';
+import { Check, X, RefreshCw, Star, Trophy } from 'lucide-react';
 
 const sampleQuestions = [
   {
