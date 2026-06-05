@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Zap, Twitter, Github, Instagram } from 'lucide-react';
+import { Zap, Github, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -43,7 +43,7 @@ export default function Footer() {
             <h3 className="font-bold text-gray-900 dark:text-white mb-4">Social</h3>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-purple-100 dark:border-purple-900/30 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-primary hover:text-white transition-all shadow-sm">
-                <Twitter className="w-5 h-5" />
+                <span className="text-sm font-bold">X</span>
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 border border-purple-100 dark:border-purple-900/30 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-primary hover:text-white transition-all shadow-sm">
                 <Github className="w-5 h-5" />
