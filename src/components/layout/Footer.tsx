@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Zap, Github, Instagram } from 'lucide-react';
+import { Zap, Github, X, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
