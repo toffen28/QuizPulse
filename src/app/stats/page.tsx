@@ -1,3 +1,4 @@
+'use client';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Trophy, Zap, Target, Flame, Star, Award, Calendar, ChevronRight } from 'lucide-react';
